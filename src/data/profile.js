@@ -4,15 +4,17 @@
 
 // import { assetUrl } from "../lib/assetUrl";
 
+import { withBase } from "../lib/withBase";
+
 export const profile = {
   name: "Jasah Shamsudheen",
   tagline: "CS Student @ TMU • Full‑Stack Developer",
-  avatar: new URL("avatar.jpg", import.meta.env.BASE_URL).toString(),
+  avatar: withBase("avatar.jpg"),
   links: {
     email: "jasah.shamsudheen@torontomu.ca",
     github: "https://github.com/jsprogram2014",
     linkedin: "https://linkedin.com/in/jasahs",
-    resume: "/Jasah_Shamsudheen_Resume_Main.pdf"
+    resume: withBase("Jasah_Shamsudheen_Resume_Main.pdf")
   },
   skills: [
     "Python", "JavaScript", "Java", "C#", "C/C++", "HTML/CSS", "SQL",
