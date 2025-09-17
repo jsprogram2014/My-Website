@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Light theme as default */
+:root { color-scheme: light; }
+html, body, #root { height: 100%; }
+body { @apply bg-slate-50 text-slate-900 font-sans; }
+
+.container-max { @apply max-w-6xl mx-auto px-4 md:px-6; }
+.card { @apply bg-white rounded-2xl border border-slate-200 shadow-sm; }
+.grad-text { @apply bg-gradient-to-r from-brand-600 to-purple-600 bg-clip-text text-transparent; }
+.badge { @apply inline-flex items-center rounded-full border border-slate-200 bg-slate-50 px-3 py-1 text-sm; }
+.link { @apply text-brand-700 hover:text-brand-600 underline underline-offset-4; }

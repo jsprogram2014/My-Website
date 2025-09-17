@@ -1,0 +1,85 @@
+/**
+ * Edit safely — this file is read by the components to render the site.
+ */
+export const profile= {
+  name: "Jasah Shamsudheen",
+  tagline: "CS Student @ TMU • Full‑Stack Developer",
+  avatar: "/avatar.jpg", 
+  links: {
+    email: "jasah.shamsudheen@torontomu.ca",
+    github: "https://github.com/jsprogram2014",
+    linkedin: "https://linkedin.com/in/jasahs",
+    resume: "/Jasah_Shamsudheen_Resume_Main.pdf"
+  },
+  skills: [
+    "Python","JavaScript","Java","C#","C/C++","HTML/CSS","SQL",
+    "React","Redux","Node.js","Express","Bootstrap","Tailwind",
+    "Git","VS Code","Jupyter","Linux/UNIX"
+  ],
+  education: [
+    {
+      school: "Toronto Metropolitan University",
+      degree: "Bachelor of Science in Computer Science (Co‑op)",
+      period: "Sept 2024 — Present",
+      notes: ""
+    },
+    {
+      school: "Centennial College",
+      degree: "Advanced Diploma in Software Engineering",
+      period: "Jan 2018 — Apr 2020",
+      notes: ""
+    }
+  ],
+  experience: [
+    {
+      company: "Scotiabank",
+      title: "Investment Advisor, CBCC",
+      location: "Toronto, ON",
+      period: "Oct 2022 — Aug 2024",
+      bullets: [
+        "Advised clients on investment strategies (mutual funds, ETFs, GICs, equities), handling 600+ calls monthly while exceeding targets.",
+        "Delivered tailored portfolio recommendations aligned with KYC/AML and regulatory standards; ensured accurate documentation and risk suitability.",
+        "Translated ambiguous client goals into actionable steps, achieving ~95% client satisfaction and repeat business."
+      ]
+    },
+    {
+      company: "Walmart",
+      title: "Retail Manager",
+      location: "Scarborough, ON",
+      period: "Jan 2021 — Sept 2022",
+      bullets: [
+        "Managed and coached a 15–20 person team across front-end operations and backroom logistics; improved unloading efficiency by ~20%.",
+        "Optimized scheduling and task allocation, reducing checkout wait times by ~15% and improving customer satisfaction."
+      ]
+    }
+  ],
+  projects: [
+    {
+      name: "E‑commerce Storefront",
+      blurb: "Responsive store with browse/search, cart and checkout; Redux Toolkit for state and reusable components for scalability.",
+      stack: ["React","Redux Toolkit","Vite","JavaScript","Tailwind/Bootstrap"],
+      links: {
+        demo: "",
+        code: "https://jsprogram2014.github.io/E-commerce-Storefront/"
+      }
+    },
+    {
+      name: "Car Purchase App",
+      blurb: "SPA showing a catalog of cars; Express backend API; dynamic listings, search, and detail views with React + Axios.",
+      stack: ["React","Node.js","Express","Axios","Bootstrap/Tailwind"],
+      links: {
+        demo: "",
+        code: "" 
+      }
+    },
+    {
+      name: "Portfolio (this site)",
+      blurb: "Converted copied static HTML into a clean React + Vite + Tailwind app with light theme and data‑driven sections.",
+      stack: ["React","Vite","TailwindCSS"],
+      links: {
+        demo: "",
+        code: "" 
+      }
+    }
+  ]
+};
