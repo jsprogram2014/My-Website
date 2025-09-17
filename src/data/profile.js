@@ -2,12 +2,12 @@
  * Edit safely — this file is read by the components to render the site.
  */
 
-import { assetUrl } from "../lib/assetUrl";
+// import { assetUrl } from "../lib/assetUrl";
 
 export const profile = {
   name: "Jasah Shamsudheen",
   tagline: "CS Student @ TMU • Full‑Stack Developer",
-  avatar: assetUrl("avatar.jpg"),
+  avatar: new URL("avatar.jpg", import.meta.env.BASE_URL).toString(),
   links: {
     email: "jasah.shamsudheen@torontomu.ca",
     github: "https://github.com/jsprogram2014",
