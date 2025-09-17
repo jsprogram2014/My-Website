@@ -17,13 +17,16 @@ export default function App() {
         <Hero />
 
         <Section id="about" title="About">
-          <div className="card p-6">
+          <div className="card p-6 space-y-3">
             <p className="text-slate-700">
-              I focus on building clean, accessible interfaces and robust back-ends.
-              This portfolio is intentionally minimal—fast to load, easy to read, and focused on the work.
+              I’m Jasah Shamsudheen - a Computer Science co-op student at Toronto Metropolitan University and a Full-stack developer. I enjoy building clean, reliable web apps with React and Node/Express, keeping interfaces fast and accessible. I’m comfortable with Python, JavaScript, Java, C#, SQL, and modern CSS (Tailwind/Bootstrap).
+            </p>
+            <p className="text-slate-700">
+              I’m especially interested in AI/ML and I’m planning to learn more in this area — things like LLM-powered apps, retrieval (RAG), embeddings/vector databases, and responsible evaluation/guardrails. On my near-term roadmap: TypeScript, PostgreSQL, Docker, and AWS.
             </p>
           </div>
         </Section>
+
 
         <Section id="education" title="Education">
           <div className="container-max">

@@ -1,10 +1,10 @@
 /**
  * Edit safely — this file is read by the components to render the site.
  */
-export const profile= {
+export const profile = {
   name: "Jasah Shamsudheen",
   tagline: "CS Student @ TMU • Full‑Stack Developer",
-  avatar: "/avatar.jpg", 
+  avatar: "/avatar.jpg",
   links: {
     email: "jasah.shamsudheen@torontomu.ca",
     github: "https://github.com/jsprogram2014",
@@ -12,9 +12,9 @@ export const profile= {
     resume: "/Jasah_Shamsudheen_Resume_Main.pdf"
   },
   skills: [
-    "Python","JavaScript","Java","C#","C/C++","HTML/CSS","SQL",
-    "React","Redux","Node.js","Express","Bootstrap","Tailwind",
-    "Git","VS Code","Jupyter","Linux/UNIX"
+    "Python", "JavaScript", "Java", "C#", "C/C++", "HTML/CSS", "SQL",
+    "React", "Redux", "Node.js", "Express", "Bootstrap", "Tailwind",
+    "Git", "VS Code", "Jupyter", "Linux/UNIX"
   ],
   education: [
     {
@@ -57,7 +57,7 @@ export const profile= {
     {
       name: "E‑commerce Storefront",
       blurb: "Responsive store with browse/search, cart and checkout; Redux Toolkit for state and reusable components for scalability.",
-      stack: ["React","Redux Toolkit","Vite","JavaScript","Tailwind/Bootstrap"],
+      stack: ["React", "Redux Toolkit", "Vite", "JavaScript", "Tailwind/Bootstrap"],
       links: {
         demo: "",
         code: "https://jsprogram2014.github.io/E-commerce-Storefront/"
@@ -66,19 +66,19 @@ export const profile= {
     {
       name: "Car Purchase App",
       blurb: "SPA showing a catalog of cars; Express backend API; dynamic listings, search, and detail views with React + Axios.",
-      stack: ["React","Node.js","Express","Axios","Bootstrap/Tailwind"],
+      stack: ["React", "Node.js", "Express", "Axios", "Bootstrap/Tailwind"],
       links: {
         demo: "",
-        code: "" 
+        code: ""
       }
     },
     {
-      name: "Portfolio (this site)",
-      blurb: "Converted copied static HTML into a clean React + Vite + Tailwind app with light theme and data‑driven sections.",
-      stack: ["React","Vite","TailwindCSS"],
+      name: "Personal Portfolio",
+      blurb: "A fast, responsive portfolio website built from scratch with modular React components, a clean light theme, and data-driven sections.",
+      stack: ["React", "Vite", "Tailwind CSS", "react-icons", "JavaScript"],
       links: {
-        demo: "",
-        code: "" 
+        demo: "",   
+        code: ""    
       }
     }
   ]
