@@ -1,10 +1,13 @@
 /**
  * Edit safely — this file is read by the components to render the site.
  */
+
+import { assetUrl } from "../lib/assetUrl";
+
 export const profile = {
   name: "Jasah Shamsudheen",
   tagline: "CS Student @ TMU • Full‑Stack Developer",
-  avatar: "/avatar.jpg",
+  avatar: assetUrl("avatar.jpg"),
   links: {
     email: "jasah.shamsudheen@torontomu.ca",
     github: "https://github.com/jsprogram2014",
