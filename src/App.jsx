@@ -50,8 +50,10 @@ export default function App() {
         <Section id="projects" title="Projects">
           <div className="container-max">
             <Projects />
+            <h4 className="text-center">More on the Way !!! </h4>
           </div>
         </Section>
+        
       </main>
       <Footer />
     </>
