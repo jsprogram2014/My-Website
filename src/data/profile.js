@@ -64,8 +64,8 @@ export const profile = {
       blurb: "Responsive store with browse/search, cart and checkout; Redux Toolkit for state and reusable components for scalability.",
       stack: ["React", "Redux Toolkit", "Vite", "JavaScript", "Tailwind/Bootstrap"],
       links: {
-        demo: "",
-        code: "https://jsprogram2014.github.io/E-commerce-Storefront/"
+        demo: "https://jsprogram2014.github.io/E-commerce-Storefront/",
+        code: ""
       }
     },
     {
@@ -82,7 +82,7 @@ export const profile = {
       blurb: "A fast, responsive portfolio website built from scratch with modular React components, a clean light theme, and data-driven sections.",
       stack: ["React", "Vite", "Tailwind CSS", "react-icons", "JavaScript"],
       links: {
-        demo: "",   
+        demo: "https://jsprogram2014.github.io/My-Website/",   
         code: ""    
       }
     }
