@@ -21,9 +21,9 @@ export default function App() {
             <p className="text-slate-700">
               I’m Jasah Shamsudheen - a Computer Science co-op student at Toronto Metropolitan University and a Full-stack developer. I enjoy building clean, reliable web apps with React and Node/Express, keeping interfaces fast and accessible. I’m comfortable with Python, JavaScript, Java, C#, SQL, and modern CSS (Tailwind/Bootstrap).
             </p>
-            <p className="text-slate-700">
+            {/* <p className="text-slate-700">
               I’m especially interested in AI/ML and I’m planning to learn more in this area — things like LLM-powered apps, retrieval (RAG), embeddings/vector databases, and responsible evaluation/guardrails. On my near-term roadmap: TypeScript, PostgreSQL, Docker, and AWS.
-            </p>
+            </p> */}
           </div>
         </Section>
 
