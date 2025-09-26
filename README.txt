@@ -1,1 +1,1 @@
-Put your image here as avatar.jpg
+Info docs about me will be here
