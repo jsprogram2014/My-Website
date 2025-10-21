@@ -14,7 +14,7 @@ export const profile = {
     email: "jasah.shamsudheen@torontomu.ca",
     github: "https://github.com/jsprogram2014",
     linkedin: "https://linkedin.com/in/jasahs",
-    resume: withBase("Jasah_Shamsudheen_Resume_Main.pdf")
+    // resume: withBase("Jasah_Shamsudheen_Resume_Main.pdf")
   },
   skills: [
     "Python", "JavaScript", "Java", "C#", "C/C++", "HTML/CSS", "SQL",
