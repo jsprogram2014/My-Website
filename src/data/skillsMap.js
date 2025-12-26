@@ -1,6 +1,7 @@
 
 import * as Si from "react-icons/si";
 import { FaJava } from "react-icons/fa"; 
+import { FaFlask } from "react-icons/fa";
 
 const pick = (...candidates) => candidates.find(Boolean);
 
@@ -29,6 +30,8 @@ export const skillsMap = {
   git: Si.SiGit,
   jupyter: Si.SiJupyter,
   linux: Si.SiLinux,
+  // "flask": FaFlask,
+  "flask": Si.SiFlask,
   "linux/unix": Si.SiLinux,
   "vs code": Si.SiVisualstudiocode,
   vscode: Si.SiVisualstudiocode,

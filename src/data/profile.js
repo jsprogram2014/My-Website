@@ -19,7 +19,7 @@ export const profile = {
   skills: [
     "Python", "JavaScript", "Java", "C#", "C/C++", "HTML/CSS", "SQL",
     "React", "Redux", "Node.js", "Express", "Bootstrap", "Tailwind",
-    "Git", "VS Code", "Jupyter", "Linux/UNIX"
+    "Git", "VS Code", "Jupyter", "Linux/UNIX", "Flask"
   ],
   education: [
     {
@@ -83,6 +83,15 @@ export const profile = {
       stack: ["React", "Vite", "Tailwind CSS", "react-icons", "JavaScript"],
       links: {
         demo: "https://jsprogram2014.github.io/My-Website/",   
+        code: ""    
+      }
+    },
+     {
+      name: "AI Sentiment Analyzer",
+      blurb: "Natural Language Processing (NLP) tool that evaluates the emotional tone of user input in real-time. Built with a Python Flask backend using the VADER lexicon for accurate sentiment scoring, featuring a responsive Bootstrap interface for instant feedback.",
+      stack: ["Python", "NLP (VADER)", "Flask", "Bootstrap", "JavaScript"],
+      links: {
+        demo: "https://sentiment-analysis-using-flask.onrender.com/",   
         code: ""    
       }
     }
