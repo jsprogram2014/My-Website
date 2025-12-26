@@ -87,11 +87,11 @@ export const profile = {
       }
     },
      {
-      name: "AI Sentiment Analyzer",
-      blurb: "Natural Language Processing (NLP) tool that evaluates the emotional tone of user input in real-time. Built with a Python Flask backend using the VADER lexicon for accurate sentiment scoring, featuring a responsive Bootstrap interface for instant feedback.",
-      stack: ["Python", "NLP (VADER)", "Flask", "Bootstrap", "JavaScript"],
+      name: "AI Emotion Detector",
+      blurb:'A sophisticated Natural Language Processing (NLP) tool that analyzes text to detect granular emotional states (Joy, Fear, Anger, Trust). Engineered with a Python Flask backend and the NRCLex library, it utilizes the NRC Emotion Lexicon to decompose user input into specific psychometric scores in real-time.',
+      stack: ["Python", "NLP (NRCLex)", "Flask", "Bootstrap", "JavaScript",'REST API'],
       links: {
-        demo: "https://sentiment-analysis-using-flask.onrender.com/",   
+        demo: "https://jsprogram2014.pythonanywhere.com/",   
         code: ""    
       }
     }
