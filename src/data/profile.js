@@ -68,15 +68,15 @@ export const profile = {
         code: ""
       }
     },
-    {
-      name: "Car Purchase App",
-      blurb: "SPA showing a catalog of cars; Express backend API; dynamic listings, search, and detail views with React + Axios.",
-      stack: ["React", "Node.js", "Express", "Axios", "Bootstrap/Tailwind"],
-      links: {
-        demo: "",
-        code: "https://github.com/jsprogram2014/Car-Purchase-App"
-      }
-    },
+    // {
+    //   name: "Car Purchase App",
+    //   blurb: "SPA showing a catalog of cars; Express backend API; dynamic listings, search, and detail views with React + Axios.",
+    //   stack: ["React", "Node.js", "Express", "Axios", "Bootstrap/Tailwind"],
+    //   links: {
+    //     demo: "",
+    //     code: "https://github.com/jsprogram2014/Car-Purchase-App"
+    //   }
+    // },
     {
       name: "Personal Portfolio",
       blurb: "A fast, responsive portfolio website built from scratch with modular React components, a clean light theme, and data-driven sections.",
