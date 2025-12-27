@@ -24,7 +24,7 @@ export const profile = {
   education: [
     {
       school: "Toronto Metropolitan University",
-      degree: "Bachelor of Science in Computer Science (Co‑op)",
+      degree: "Bachelor of Science in Computer Science",
       period: "Sept 2024 — Present",
       notes: ""
     },
